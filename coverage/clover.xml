@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668697060638" clover="3.2.0">
-  <project timestamp="1668697060638" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2" elements="11" coveredelements="11" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
-    <file name="Ejercicio15.ts" path="/Users/alejandroalbitestapia/Desktop/ale/NTTDATA/Ejercicio-15/src/Ejercicio15.ts">
+<coverage generated="1668713082923" clover="3.2.0">
+  <project timestamp="1668713082923" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4" elements="24" coveredelements="24" complexity="0" loc="17" ncloc="17" packages="2" files="2" classes="2"/>
+    <package name="dist.src">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="Ejercicio15.js" path="/Users/alejandroalbitestapia/Desktop/ale/NTTDATA/Ejercicio-15/dist/src/Ejercicio15.js">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src">
       <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="22" count="2" type="stmt"/>
-      <line num="23" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="29" count="2" type="stmt"/>
-      <line num="30" count="2" type="stmt"/>
-      <line num="39" count="1" type="stmt"/>
-    </file>
+      <file name="Ejercicio15.ts" path="/Users/alejandroalbitestapia/Desktop/ale/NTTDATA/Ejercicio-15/src/Ejercicio15.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

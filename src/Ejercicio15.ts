@@ -31,9 +31,4 @@ const getCake = (isSick: boolean) => {
   });
 };
 
-// obtenerTorta(true)
-//   .then((res) => console.log(res))
-//   .catch((error) => console.log(error))
-//   .finally(() => console.log("De todas formas tendremos fiesta"));
-
 export default getCake;

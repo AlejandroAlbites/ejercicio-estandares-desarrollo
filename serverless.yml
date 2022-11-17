@@ -1,11 +1,24 @@
-service: Ejercicio-14
-
-frameworkVersion: '3'
+service: ejercicio-15
 
 provider:
   name: aws
   runtime: nodejs14.x
+  stage: dev
+  region: us-east-2
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
 
 functions:
-  hello:
-    handler: handler.hello
+  getCake:
+    handler: handler.handler
+    events:
+      - http:
+          path: /get-cake
+          method: get
+          cors: true
+      - http:
+          path: /{proxy+}
+          method: any
+          cors: true
